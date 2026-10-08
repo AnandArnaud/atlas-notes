@@ -11,7 +11,7 @@ export default function Home() {
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    // No product analytics wired in yet — the handler just logs the action.
+    // The handler logs the action.
     console.log(mode === "signup" ? "sign_up" : "log_in", { email });
     router.push("/notes");
   }

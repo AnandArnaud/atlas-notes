@@ -4,7 +4,7 @@ Atlas is a minimal notes app — sign up, jot notes, pin the important ones, arc
 
 **Stack:** Next.js 15 (App Router, TypeScript)
 
-It is realistic but intentionally small, and ships with **no product analytics, experimentation, or session-replay wired in** — the user-action handlers just log to the console today.
+It is intentionally small. The user-action handlers log to the console.
 
 ## Key user actions
 

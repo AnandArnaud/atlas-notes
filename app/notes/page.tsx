@@ -27,7 +27,7 @@ export default function NotesPage() {
     const note: Note = { id: nextId++, body, pinned: false, archived: false };
     setNotes((n) => [note, ...n]);
     setDraft("");
-    // No product analytics wired in yet — the handler just logs the action.
+    // The handler logs the action.
     console.log("note_created", { id: note.id });
   }
 
